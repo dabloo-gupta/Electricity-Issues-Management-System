@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="publiccss.css" class="css">
+    <script src="./publicjs.js" async></script>
+</head>
+
+<body>
+
+    <h1 class="align_center">Welcome to EIMS</h1>
+
+
+    <h3 class="align_center">Register your self</h3>
+    <div class="container">
+        <form action="">
+
+            <label for="fname">Full Name </label>
+            <input type="text" id="name" name="firstname" placeholder="Your name..">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="firstname" placeholder="Your email..">
+
+            <label for="mobile">Mobile </label>
+            <input type="text" id="mobile" name="firstname" placeholder="Your mobile..">
+
+            <label for="password">Password </label>
+            <input type="text" id="password" name="firstname" placeholder="Your Password..">
+
+            <!-- <label for="password">Password </label>
+            <input type="password" id="password" name="password" placeholder="Your password"> -->
+
+            <!-- <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
+
+            <label for="state">State</label>
+            <select id="state" class="stateList" name="state">
+                <!-- <option value="australia">Bihar</option>
+                <option value="canada">Uttar Pradesh</option>
+                <option value="usa">Uttrakhand</option> -->
+            </select>
+            <!-- for distic -->
+            <label for="city">City</label>
+            <select id="city" class="cityList" name="city">
+                <!-- <option value="Kushinagar">Kushinagar</option>
+                <option value="Gorakhpur">Gorakhpur</option>
+                <option value="Siddharthnagar">Siddharthnagar</option> -->
+            </select>
+
+            <label for="address">Complete Address</label>
+            <input type="text" id="address" name="address" placeholder="Enter your complete address..">
+
+
+            <label for="Experience">Experience in year</label>
+            <!-- <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> -->
+            <input type="number" name="subject" id="experience">
+            <br>
+            <br>
+
+            <input type="submit" value="Submit" onclick="registerElectrician()">
+            
+
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./carrer.js"></script>
+</body>
+
+</html>

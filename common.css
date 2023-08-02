@@ -1,0 +1,48 @@
+footer {
+    color: white;
+    /* display: flex; */
+    background-color: rgb(90, 79, 79);
+    /* height: 300px; */
+}
+
+.footer-details{
+    /* border: 10px solid red; */
+    /* display: grid;
+    grid-template-columns: 3fr 2fr 1fr; */
+}
+
+/* card */
+.card_deco {
+    margin: 80px;
+}
+
+.achi {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.text-uppercase {
+    /* text color: white-space:; */
+}
+
+h2{
+    text-align: center;
+}
+
+.list-unstyled {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* border: 10px solid red; */
+
+}
+
+.list-unstyled  img{
+    width: 40px;
+    height: 30px;
+}
+
+a{
+    color: white;
+}
